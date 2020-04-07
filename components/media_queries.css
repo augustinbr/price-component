@@ -1,0 +1,40 @@
+@media screen and (max-width: 375px) {
+  .container {
+    width: 300px;
+    height: 721px;
+    grid-template-columns: 100%;
+    grid-template-rows: 34% 33% 34%;
+    grid-template-areas:
+      "header"
+      "subscription"
+      "description";
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .card__subs {
+    border-bottom-left-radius: 0px;
+  }
+
+  .card__desc {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .header {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .header p {
+    font-size: 15px;
+  }
+
+  .header h6 {
+    font-size: 15px;
+  }
+
+  .header h2 {
+    font-size: 17px;
+  }
+}

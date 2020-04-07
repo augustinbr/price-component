@@ -1,0 +1,21 @@
+.sign-up {
+  background-color: #BEDF33;
+  border: solid 1px #BEDF33;
+
+  padding: 13px 100px;
+  color: white;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 700;
+  margin-top: 18px;
+  box-shadow:
+    0 1px 2.2px rgba(0, 0, 0, 0.022),
+    0 2.3px 5.3px rgba(0, 0, 0, 0.032),
+    0 4.4px 10px rgba(0, 0, 0, 0.04),
+    0 7.8px 17.9px rgba(0, 0, 0, 0.048),
+    0 14.6px 33.4px rgba(0, 0, 0, 0.058),
+    0 35px 80px rgba(0, 0, 0, 0.08)
+;
+
+}
+

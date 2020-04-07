@@ -1,0 +1,36 @@
+body {
+  margin: 0 auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-template-areas:
+    "header header"
+    "subscription description";
+  width: 633px;
+  margin: 0 auto;
+  height: 500px;
+  border-radius: 22px;
+  font-family: 'Karla', sans-serif;
+  box-shadow:
+    0 1px 2.2px rgba(0, 0, 0, 0.022),
+    0 2.3px 5.3px rgba(0, 0, 0, 0.032),
+    0 4.4px 10px rgba(0, 0, 0, 0.04),
+    0 7.8px 17.9px rgba(0, 0, 0, 0.048),
+    0 14.6px 33.4px rgba(0, 0, 0, 0.058),
+    0 35px 80px rgba(0, 0, 0, 0.08);
+
+
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  background-image: url('https://images.unsplash.com/photo-1533628635777-112b2239b1c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+}
+
+
